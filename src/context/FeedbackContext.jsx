@@ -44,9 +44,7 @@ export const FeedbackProvider =({children}) => {
         {
             setFeedback(feedback.filter((item) => item.id !== id))
         }
-        
     }
-
     //EDIT Feedback
     const editFeedback =(item)=>{
         setFeedbackEdit({
